@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.visit a:link {
+    font-size: 1.5vw;
+    font-weight: 800;
+    padding-left: 5%; 
+    text-decoration: underline;
+    line-height: 1cm;
+}
+
+.visit a {
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color:  goldenrod;
+}
+
+.button{
+    text-align: center;
+    color: white;
+}
+
+.but{
+    border-radius: 4px;
+    font-size: 3.5vh;
+    width: 20vw;
+    height: 8vh;
+    background-color: black;
+    font-style:italic;
+    font-family: Verdana, Tahoma, sans-serif;  
+}
+
+.but a{
+    color: white;
+}
+
+ul{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 550;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif; 
+} 

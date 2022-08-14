@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;    
+}
+
+.food a:link {
+    font-size: 1.5vw;
+    font-weight: 800;
+    padding-left: 5%; 
+    text-decoration: underline;
+    line-height: 1cm;
+}
+
+.food a {
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+ul
+{
+    text-align: center;
+    color: white;
+}  
+.bgimg
+{
+    background-image: url(./images/food2.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    filter: blur(8px);
+    -webkit-filter: blur(8px); 
+} 
+
+.bgtext
+{
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
